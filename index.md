@@ -48,4 +48,3 @@ gentle people could have prepared them for the arrival of the Pinta, the Niña, 
 Lucayans. Columbus claimed the island and others in the Bahamas for his royal Spanish patrons, but not finding the gold and other 
 riches he was seeking, he stayed for only two weeks before sailing towards Cuba.
 ```
-
