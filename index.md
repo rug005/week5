@@ -15,9 +15,11 @@ We can also use the command *cd* to takes you back to the root directory of the 
 ## Using this *.grep -R "(string)" * allows you to grap any specific String.
 ![Image](grep-r.png)
 ---
+
 We can see that the command -R in Linux/UNIX system programming training: 
 [grep -R website](https://man7.org/linux/man-pages/man1/grep.1.html)
 ---
+
 **File and Directory Selection**
 ---
 ![Image](-R.png)
