@@ -11,6 +11,7 @@ We can also use the command *cd* to takes you back to the root directory of the 
 ## Using *find >* to make a new file containing everything inside the written_2/ directory.
 ![Image](written.png)
 ## Using *grep* Let's you grab specific string.
- 
 ![Image](grep.png)
+## Using this *.grep -R "(string)" * allows you to grap any specific String.
+![Image](grep-r.png)
 
