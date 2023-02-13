@@ -10,5 +10,7 @@ We can also use the command *cd* to takes you back to the root directory of the 
 ![Image](cd.png)
 ## Using *find >* to make a new file containing everything inside the written_2/ directory.
 ![Image](written.png)
-## Using 
+## Using *grep* Let's you grab specific string.
+ 
 ![Image](grep.png)
+
