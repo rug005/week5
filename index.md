@@ -4,4 +4,6 @@
 ![Image](find.png)
 In this example, we used find to find every single file inside the directory.
 We can also use the command *cd* to takes you back to the root directory of the current drive.
-
+---
+## Using *cd* to go to a specific directory.
+![Image](cd.png)
