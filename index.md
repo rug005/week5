@@ -80,3 +80,17 @@ $ find /tmp
 /tmp/07f0f521-b189-4bae-ba2c-7f732575764a.tmp
 ...
 ```
+---
+** Using find ./ **
+```
+[cs15lwi23agr@ieng6-203]:~:551$ find ./
+./
+./.bash_profile
+./.bashrc
+./.cshrc
+./.kshrc
+./.locallogin
+./.login
+./.procmailrc
+./.profile
+```
