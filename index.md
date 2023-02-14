@@ -70,6 +70,7 @@ riches he was seeking, he stayed for only two weeks before sailing towards Cuba.
 - find -L : Command helps with the information used to be taken from the properties of the file.
 - find -H : Helps find information taken from the properties of the symbolic link.
 ---
+**Using find /tmp**
 ```
 $ find /tmp
 /tmp
