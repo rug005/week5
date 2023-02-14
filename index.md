@@ -81,7 +81,7 @@ $ find /tmp
 ...
 ```
 ---
-** Using find ./ **
+**Using find ./**
 ```
 [cs15lwi23agr@ieng6-203]:~:551$ find ./
 ./
