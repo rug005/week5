@@ -50,9 +50,9 @@ riches he was seeking, he stayed for only two weeks before sailing towards Cuba.
 ```
 [Linux Page](https://man7.org/linux/man-pages/man1/find.1.html)
 # Different *find* commands, find -P , find -L, find -H
-find -P : This command examines or prints information about different files.
-find -L : Command helps with the information used to be taken from the properties of the file.
-find -H : Helps find information taken from the properties of the symbolic link.
+- find -P : This command examines or prints information about different files.
+- find -L : Command helps with the information used to be taken from the properties of the file.
+- find -H : Helps find information taken from the properties of the symbolic link.
 ---
 ```
 $ find /tmp
