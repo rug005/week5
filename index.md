@@ -48,8 +48,19 @@ gentle people could have prepared them for the arrival of the Pinta, the Niña, 
 Lucayans. Columbus claimed the island and others in the Bahamas for his royal Spanish patrons, but not finding the gold and other 
 riches he was seeking, he stayed for only two weeks before sailing towards Cuba.
 ```
-![Linux Page](https://man7.org/linux/man-pages/man1/find.1.html)
+[Linux Page](https://man7.org/linux/man-pages/man1/find.1.html)
 # Different *find* commands, find -P , find -L, find -H
 find -P : This command examines or prints information about different files.
 find -L : Command helps with the information used to be taken from the properties of the file.
 find -H : Helps find information taken from the properties of the symbolic link.
+---
+```
+$ find /tmp
+/tmp
+/tmp/.ses
+/tmp/.squirrel-lock-993566AA4B0BD47CBA9A4D264F058EC017C0F3BB
+/tmp/00905ae8-cb90-4c32-b640-d0a9e10cefbc.tmp
+/tmp/01b21da0-cda0-4adc-90ec-f44a25ee4f4b.tmp
+/tmp/07f0f521-b189-4bae-ba2c-7f732575764a.tmp
+...
+```
