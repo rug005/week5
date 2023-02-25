@@ -9,6 +9,7 @@ grep [OPTIONS] PATTERN [FILE...]
 **Option 1: -r**
 ---
 The -r option searches for files recursively in subdirectories.
+---
 Example 1:
 ```
 [cs15lwi23agr@ieng6-202]:skill-demo1-data:580$ ls
@@ -41,6 +42,8 @@ When we try to do the same command, but instead in lower case we get...
 ---
 **Option 2: -i**
 ---
+This command makes the search case-insensitive.
+---
 We have a file names "file.txt" which contains,
 ```
 [cs15lwi23agr@ieng6-202]:written_2:547$ cat fruit.txt 
@@ -50,7 +53,6 @@ ORANGE
 ```
 Example 1:
 ```
-This command makes the search case-insensitive.
 [cs15lwi23agr@ieng6-202]:skill-demo1-data:543$ grep -i "apple" written_2/fruit.txt
 APPLE
 ```
