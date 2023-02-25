@@ -2,9 +2,9 @@
 **Researching Commands** : When using the terminal there are several different commmands we can use. Some examples are *less* , *find* , *grep*.
 ## grep command.
 
-## Using *grep* Let's you grep specific string.
+## Using *grep* Let's you grep specific string. ##
 ---
-Option 1: -r
+**Option 1: -r**
 ---
 The -r option searches for files recursively in subdirectories.
 ```
@@ -25,7 +25,7 @@ When we try to do the same command, but instead in lower case we get...
 [cs15lwi23agr@ieng6-202]:skill-demo1-data:528$ 
 ```
 ---
-Option 2: -i
+**Option 2: -i**
 ---
 We have a file names "file.txt" which contains,
 ```
@@ -47,9 +47,9 @@ ORANGE
 ```
 We can see from this that we searched the word APPLE using lower case letters. This is something we can't
 do when using -r.
----
 
-## Option 3: -v 
+---
+**Option 3: -v**
 This command prints all lines that do not match the pattern.
 ```
 [cs15lwi23agr@ieng6-202]:written_2:558$ cat results.txt 
@@ -67,8 +67,11 @@ negative
 negative
 negative
 ```
+
 As we can see below, this can be very helpful whenever you'd like to avoid printing out a specific text (in this example being the times people have tested negative)
-Exammple 1:
+
+Example 1:
+
 ```
 [cs15lwi23agr@ieng6-202]:skill-demo1-data:563$ grep -v "negative" written_2/results.txt 
 positive
@@ -90,7 +93,7 @@ negative
 negative
 ```
 ---
-Option 4: -c
+**Option 4: -c**
 Using the command grep -c prints only the count of lines that match the pattern.
 Example 1:
 ```
