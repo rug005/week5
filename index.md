@@ -14,7 +14,11 @@ Example 1:
 [cs15lwi23agr@ieng6-202]:skill-demo1-data:580$ ls
 written_2
 [cs15lwi23agr@ieng6-202]:skill-demo1-data:581$ grep -r "quiz"
-written_2/cse15l:Each week there will be an online, untimed, multiple-tries quiz due on Wednesday at 9 am before class (including week 1). The purpose of this quiz is to make sure everyone has checked in on the concepts we will be using in lab on Wednesday and Thursday. They are open for late submission until the end of the quarter, but see grading below for how late submissions correspond to grades.
+written_2/cse15l:Each week there will be an online, untimed, multiple-tries quiz 
+due on Wednesday at 9 am before class (including week 1). The purpose of this quiz
+is to make sure everyone has checked in on the concepts we will be using in lab on 
+Wednesday and Thursday. They are open for late submission until the end of the quarter, 
+but see grading below for how late submissions correspond to grades.
 ```
 Example 2:
 ```
