@@ -70,5 +70,16 @@ positive
 positive
 positive
 ```
-
+---
+Option 4: -c
+Using the command grep -c prints only the count of lines that match the pattern.
+```
+[cs15lwi23agr@ieng6-202]:skill-demo1-data:564$ grep -c "negative" written_2/results.txt 
+8
+```
+```
+[cs15lwi23agr@ieng6-202]:skill-demo1-data:567$ grep -c "positive" written_2/results.txt 
+5
+```
+---
 
