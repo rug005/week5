@@ -118,4 +118,6 @@ Example 2:
 5
 ```
 ---
-
+# Sources 
+- ChatGPT
+- [IBM Documentation] https://www.ibm.com/docs/en/aix/7.2?topic=g-grep-command#grep__row-d3e144140
