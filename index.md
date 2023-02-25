@@ -119,5 +119,7 @@ Example 2:
 ```
 ---
 # Sources 
-- ChatGPT
-- [IBM Documentation] https://www.ibm.com/docs/en/aix/7.2?topic=g-grep-command#grep__row-d3e144140
+- [IBM Documentation](https://www.ibm.com/docs/en/aix/7.2?topic=g-grep-command#grep__row-d3e144140) : The IBM Documentation website
+listed a varitey of grep commands to choose from and explained their purpose.
+- ChatGPT : Provided me with different grep commands and examples. This was helpful for my learning since I was able to visually see
+how it works in a few seconds. I did create my own examples for this lab report and tested them out myself.
