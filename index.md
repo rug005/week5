@@ -1,12 +1,22 @@
 # Lab Report 3: Ruben A Gonzalez
 **Researching Commands** : When using the terminal there are several different commmands we can use. Some examples are *less* , *find* , *grep*.
-## grep command.
+For this lab report I'll be talking about the command "grep".
+The command grep searches for lines in one or more files that match the text. After this it prints them to the standard output.
 
-## Using *grep* Let's you grep specific string. ##
+grep [OPTIONS] PATTERN [FILE...]
+
 ---
 **Option 1: -r**
 ---
 The -r option searches for files recursively in subdirectories.
+Example 1:
+```
+[cs15lwi23agr@ieng6-202]:skill-demo1-data:580$ ls
+written_2
+[cs15lwi23agr@ieng6-202]:skill-demo1-data:581$ grep -r "quiz"
+written_2/cse15l:Each week there will be an online, untimed, multiple-tries quiz due on Wednesday at 9 am before class (including week 1). The purpose of this quiz is to make sure everyone has checked in on the concepts we will be using in lab on Wednesday and Thursday. They are open for late submission until the end of the quarter, but see grading below for how late submissions correspond to grades.
+```
+Example 2:
 ```
 [cs15lwi23agr@ieng6-202]:skill-demo1-data:523$ grep -r "Lucayans" ./written_2
 ./written_2/travel_guides/berlitz2/Bahamas-History.txt:Centuries before the 
@@ -50,6 +60,7 @@ do when using -r.
 
 ---
 **Option 3: -v**
+---
 This command prints all lines that do not match the pattern.
 ```
 [cs15lwi23agr@ieng6-202]:written_2:558$ cat results.txt 
@@ -94,6 +105,7 @@ negative
 ```
 ---
 **Option 4: -c**
+---
 Using the command grep -c prints only the count of lines that match the pattern.
 Example 1:
 ```
