@@ -7,7 +7,6 @@
 Option 1: -r
 ---
 The -r option searches for files recursively in subdirectories.
-## Using this *.grep -r "(string)"...
 ```
 [cs15lwi23agr@ieng6-202]:skill-demo1-data:523$ grep -r "Lucayans" ./written_2
 ./written_2/travel_guides/berlitz2/Bahamas-History.txt:Centuries before the 
@@ -35,15 +34,22 @@ APPLE
 BANANA
 ORANGE
 ```
+Example 1:
 ```
 This command makes the search case-insensitive.
 [cs15lwi23agr@ieng6-202]:skill-demo1-data:543$ grep -i "apple" written_2/fruit.txt
 APPLE
 ```
+Example 2:
+```
+[cs15lwi23agr@ieng6-202]:skill-demo1-data:569$ grep -i "orange" written_2/fruit.txt 
+ORANGE
+```
 We can see from this that we searched the word APPLE using lower case letters. This is something we can't
 do when using -r.
 ---
-Option 3: -v 
+
+## Option 3: -v 
 This command prints all lines that do not match the pattern.
 ```
 [cs15lwi23agr@ieng6-202]:written_2:558$ cat results.txt 
@@ -62,6 +68,7 @@ negative
 negative
 ```
 As we can see below, this can be very helpful whenever you'd like to avoid printing out a specific text (in this example being the times people have tested negative)
+Exammple 1:
 ```
 [cs15lwi23agr@ieng6-202]:skill-demo1-data:563$ grep -v "negative" written_2/results.txt 
 positive
@@ -70,13 +77,27 @@ positive
 positive
 positive
 ```
+Example 2:
+```
+[cs15lwi23agr@ieng6-202]:skill-demo1-data:571$ grep -v "positive" written_2/results.txt 
+negative
+negative
+negative
+negative
+negative
+negative
+negative
+negative
+```
 ---
 Option 4: -c
 Using the command grep -c prints only the count of lines that match the pattern.
+Example 1:
 ```
 [cs15lwi23agr@ieng6-202]:skill-demo1-data:564$ grep -c "negative" written_2/results.txt 
 8
 ```
+Example 2:
 ```
 [cs15lwi23agr@ieng6-202]:skill-demo1-data:567$ grep -c "positive" written_2/results.txt 
 5
